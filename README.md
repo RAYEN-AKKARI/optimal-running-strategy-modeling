@@ -27,17 +27,15 @@ The main objective is to understand how an athlete should distribute effort and 
 - Whitt stochastic model
 - Aftalion–Bonnans energy model
 
-## Current Progress
+## Project Status
 
-- [x] Bibliographic study
-- [x] Mathematical review of the main models
-- [x] Project report
-- [ ] Python implementation of the Keller model
-- [ ] Numerical simulations
-- [ ] Comparison with real race records
-- [ ] Sensitivity analysis
-- [ ] Interactive visualizations
-
+- [x] Literature review of mathematical running models
+- [x] Study of the Keller model
+- [x] Review of fatigue-based extensions
+- [x] Review of bioenergetic and stochastic approaches
+- [x] Comparison of model predictions with running records
+- [x] Final academic report
+- [ ] Possible future numerical implementation
 ## Repository Structure
 
 ```text
@@ -47,15 +45,17 @@ src/          Reusable Python functions
 data/         Running-record datasets
 figures/      Generated charts and visualizations
 ```
-Technologies
-Python
-NumPy
-SciPy
-Pandas
-Matplotlib
-Jupyter Notebook
-Mathematical Optimization
-Differential Equations
+## Methods and Concepts
+
+- Mathematical modeling
+- Optimization
+- Differential equations
+- Calculus of variations
+- Physiological energy constraints
+- Fatigue modeling
+- Stochastic modeling
+- Scientific literature review
+  
 Authors
 Rayen Akkari
 Ahmed Saidi
@@ -66,6 +66,9 @@ Project Status
 
 This repository is currently under development. The bibliographic study is complete, while the computational implementation and numerical experiments are in progress.
 
+## Nature of the Project
+
+This project is a bibliographic and theoretical study. It reviews and compares mathematical models of optimal running strategies. No original software implementation was developed as part of the academic work.
 License
 
 This project is licensed under the MIT License.
